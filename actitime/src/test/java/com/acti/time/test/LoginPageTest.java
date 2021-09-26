@@ -15,13 +15,13 @@ import com.acti.time.page.LoginPage;
 import com.acti.time.testbase.TestBase;
 import com.acti.time.util.XLSXReaderUtil;
 
-public class LogingPageTest extends TestBase {
+public class LoginPageTest extends TestBase {
 	LoginPage loginPage;
 	HomePage homePage;
 	String fileName = "C:\\Users\\malli\\workspace\\actitimetestsuite\\actitime\\src\\test\\resource\\com\\acti\\time\\resource\\altitimelogintestdata.xlsx";
 	String sheetName = "logintestData";
 	String url;
-	LogingPageTest() {
+	LoginPageTest() {
 		super();
 	}
 	@BeforeTest
